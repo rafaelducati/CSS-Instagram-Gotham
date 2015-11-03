@@ -1,3 +1,3 @@
 #CSS Instagram Gotham
 
-CSS filter that emulates the black and white effects of the old Gotham filter, removed from old versions of Instagram.
+CSS filter that emulates the black and white effects of the old Gotham filter, removed from old versions of Instagram. It's based on Una Kravets [CSSgram](https://github.com/una/CSSgram "CSSgram"), but here with a different approach: applying part oft the filter effects on the `<img>` element instead the project recommendation can't limit the inheritancer of filter effects from the parent element to `:before` and `:after` pseudo-elements. The changes on the image only affects itself and are made directly on the content, the `<img>` element, and not about its container tag `<figure>`. 
